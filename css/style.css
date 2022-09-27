@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;   
    }
+html {
+    font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 body{
    width: 100%;
    color: black;
