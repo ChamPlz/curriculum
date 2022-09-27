@@ -46,32 +46,8 @@ hr{
       box-shadow: 0 0 5px #069;
       position: absolute;
       top: 3%;
-      left: 15%;
+      left: 20%;
   }
-@media(max-width: 1340px) {
-    .container {
-        max-width: 1100px;
-    }
-}
-
-@media(max-width: 1240px) {
-    .container {
-        padding: 0 var(--gutter-medium);
-    }
-}
-
-@media(max-width: 600px) {
-    .container{
-        padding: 0 var(--gutter-normal);
-    }
-}
-
-@media(max-width: 600px) {
-    .container {
-        padding: 0 var(--gutter-small);
-    }
-}
-
 .container::-webkit-scrollbar{
       width: 14px;
       border: 1px solid #069;
@@ -101,6 +77,13 @@ hr{
    border-width: 3px;
    border-color: #000;
  }
+
+@media(max-width: 600px) {
+    .hr_dados1::after {
+        marging 10%;
+    }
+}
+
 .hr_01{
    border-top: medium dashed black;
    border-bottom: medium dashed black;
