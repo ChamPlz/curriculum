@@ -64,6 +64,7 @@ hr{
    overflow: visible;
    padding: 2;
    text-align: center;
+   marging: 2%;
  }
 .hr_dados1::after {
    content: "Carlos Caldeira Carvalho Junior";
